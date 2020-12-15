@@ -7,21 +7,30 @@ import { MenuController, NavController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  liamm:any;
+  data:any;
 
   constructor(private menu:MenuController, private navCtrl:NavController) {
 
+
+       this.liamm='Hej;'   
     
-    
-const data=["liam","hej"]
+  this.data=["Liamm", "Anastasija"]
 
-
-
-
-    
-
-    console.log (data)
-    console.log(data[1])
      
+  }
+
+
+  liam(data){
+
+    if(data==='ett'){
+
+    }else{
+
+      console.log('två')
+    }
+  
+
   }
 
 
